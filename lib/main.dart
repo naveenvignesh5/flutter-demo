@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:onesignal/onesignal.dart';
 
-import './pages/Home.dart';
+import './pages/auth.dart';
 
 void main() {
   OneSignal.shared.init("d122d49c-9b84-4e2c-a3e0-7e75f3c4a794");
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepOrange,
         accentColor: Colors.deepPurple,
       ),
-      home: HomePage(),
+      home: AuthPage(),
     );
   }
 }
